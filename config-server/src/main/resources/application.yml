@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: https://github.com/miguelrivera6831/bootcamp-config-server.git
+          default-label: main
+          search-paths: config-data
+          username: username
+          password: password

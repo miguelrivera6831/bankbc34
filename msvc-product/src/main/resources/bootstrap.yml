@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: msvc-product
+  profiles:
+    active: prod
+  config:
+    import: "optional:configserver:http://localhost:8888/"
+
