@@ -19,7 +19,7 @@ El sistema a desarrollar está planteado en el contexto del negocio bancario que
 ## Installation
 
 1) Desplegar config server: Agregar en config-server/src/main/resources/application.yml su respectivo ***username***  y ***password*** ([Github-tokens](https://github.com/settings/tokens)).
-    - La ruta para los archivos de configuración es [Config-server](https://github.com/iqvan/bootcamp-config-server.git).
+    - La ruta para los archivos de configuración es [Config-server](https://github.com/miguelrivera6831/bootcamp-config-server.git).
 
 
 3) Desplegar eureka server: Para confirmar despliegue consulte la ruta:
