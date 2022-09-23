@@ -31,11 +31,11 @@ El sistema a desarrollar está planteado en el contexto del negocio bancario que
    - Para el ambiente dev los yml de los microservicios deben apuntar a:
 
         ```sh
-        import: "optional:configserver:http://localhost:8888/"
+        import: "optional:configserver:http://localhost:8889/"
         ```
     - Para el ambiente prod los yml de los microservicios deben apuntar a:
     
         ```sh
-        import: "optional:configserver:http://config-server:8888/"
+        import: "optional:configserver:http://config-server:8889/"
         ```
 4) Desplegar gateway.
